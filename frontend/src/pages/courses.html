@@ -117,38 +117,52 @@
         function app() {
             return {
                 searchTerm: '',
-                categories: ['Science', 'Mathematics', 'History'],
+                categories: ['Programming', 'Design', 'Marketing'],
                 selectedCategories: [],
                 difficultyLevels: ['Beginner', 'Intermediate', 'Advanced'],
                 selectedDifficultyLevels: [],
                 courses: [
                     {
-                        title: 'Introduction to Chemistry',
-                        description: 'Learn the basics of chemistry in this introductory course.',
-                        thumbnailUrl: 'https://picsum.photos/200',
-                        category: 'Science',
+                        title: 'Introduction to Python',
+                        description: 'Learn the basics of programming with Python in this introductory course.',
+                        thumbnailUrl: 'https://sllearnengine.blob.core.windows.net/material-images/d7aa9e6be90c47c3968f99d1a30792e1-Python%20For%20Beginners.png',
+                        category: 'Programming',
                         difficulty: 'Beginner'
                     },
                     {
-                        title: 'Calculus 101',
-                        description: 'An introduction to the concepts and applications of calculus.',
-                        thumbnailUrl: 'https://picsum.photos/200',
-                        category: 'Mathematics',
+                        title: 'Data Structures and Algorithms with Python',
+                        description: 'Learn how to implement common data structures and algorithms using Python.',
+                        thumbnailUrl: 'https://uploads.sololearn.com/uploads/courses/1093.png',
+                        category: 'Programming',
                         difficulty: 'Intermediate'
                     },
                     {
-                        title: 'World War II',
-                        description: 'A comprehensive overview of the events and impact of World War II.',
-                        thumbnailUrl: 'https://picsum.photos/200',
-                        category: 'History',
+                        title: 'UX Design Fundamentals',
+                        description: 'Learn the principles of user experience design and how to apply them to create great user interfaces.',
+                        thumbnailUrl: 'https://uploads.sololearn.com/uploads/courses/1162.png',
+                        category: 'Design',
+                        difficulty: 'Beginner'
+                    },
+                    {
+                        title: 'Advanced UX Design Techniques',
+                        description: 'Learn advanced techniques for designing user experiences that delight users and drive engagement.',
+                        thumbnailUrl: 'https://uploads.sololearn.com/uploads/courses/1141.png',
+                        category: 'Design',
                         difficulty: 'Advanced'
                     },
                     {
-                        title: 'World History',
-                        description: 'A comprehensive overview of the events and impact of World War II.',
-                        thumbnailUrl: 'https://picsum.photos/200',
-                        category: 'History',
+                        title: 'Digital Marketing',
+                        description: 'An introduction to the concepts and strategies of digital marketing.',
+                        thumbnailUrl: 'https://sllearnengine.blob.core.windows.net/material-images/e39a911922bf4393a046ce0bf898ee07-Tech%20for%20Everyone-2%20(1).png',
+                        category: 'Marketing',
                         difficulty: 'Beginner'
+                    },
+                    {
+                        title: 'Web Development with JavaScript and Node.js',
+                        description: 'Learn how to build web applications using JavaScript and Node.js in this intermediate-level course.',
+                        thumbnailUrl: 'https://sllearnengine.blob.core.windows.net/material-images/0a75b5b359144e83a295b66a8954a044-JV_2.png',
+                        category: 'Programming',
+                        difficulty: 'Intermediate'
                     }
                 ],
                 get filteredCourses() {
